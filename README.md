@@ -1,95 +1,15 @@
 # Hello
 Welcome to the Hello project! This project offers a range of features to help you organize and manage your personal and professional communication.
 
-With this project, you'll be able to send and receive emails, chat with your contacts, create notes, tasks, and events, and even share these items with your contacts. The project also includes a feed feature, which shows updates from your contacts, groups, and yourself. Additionally, there's a trash app, which keeps track of deleted contacts, notes, emails, tasks, and feeds, so you can recover them if needed. And finally, there's a contacts app, which keeps your contact information, groups, and blocked contacts organized and accessible.
+With this project, you'll be able to send and receive emails, chat with your contacts, create notes, tasks, and events, and even share these items with your contacts. The project also includes a feed feature, which shows updates from your contacts, groups, and yourself. Additionally, there's a trash app, which keeps track of deleted contacts, notes, emails, tasks, and feeds, so you can recover them if needed within 30days. And finally, there's a contacts app, which keeps your contact information, groups, and blocked contacts organized and accessible.
 
-Whether you're new to Django or looking to improve your skills, the Hello project provides a great starting point to explore the features and capabilities of Django, Django Rest Framework, and Django GraphQL.
+The Hello project uses `Django` and  `GraphQL`.
 
-# Create project
-
-```bash
-mkdir hello
-```
-
-### Create virtual environment
-
-```bash
-pip install virtualenv
-```
-
-```bash
-virtualenv mail # env_name is the name of the virtual environment
-```
-
-### Activate virtual environment
-
-```bash
-source mail/bin/activate
-```
-
-### Install requirements.txt
-
-```bash
-pip install -r requirements.txt
-```
-
-### Install Django
-
-```bash
-pip install django
-```
-
-### Create requirements.txt
-
-```bash
-pip freeze > requirements.txt
-```
-
-### Create Django project
-
-```bash
-django-admin startproject hello . # project_name is the name of the project and . is the current directory
-```
-
-### Create Django app
-
-```bash
-python manage.py startapp app_name # app_name is the name of the app
-```
-
-
-### Create superuser
-
-```bash
-python manage.py createsuperuser
-```
-
-
-### Run server
-
-```bash
-python manage.py runserver
-```
-
-
-### Migrate
-
-```bash
-python manage.py migrate
-```
-
-
-### Create migrations
-
-```bash
-python manage.py makemigrations
-```
-
-### Hello in Django project for learning
+### Hello project features
 
 1. Contacts app
    1. create contacts
-      1. email, phone, address, first_name, last_name, company, avatar
+      1. email(required), phone, address, first_name, last_name, company, avatar
    2. update contacts
    3. delete contacts -> put it in trash folder and delete after 30 days
    4. should be able to add contacts to groups
@@ -130,6 +50,89 @@ python manage.py makemigrations
    1. restore deleted contacts, notes, emails, tasks
    2. permanently delete contacts, notes, emails, tasks
    3. Feeds can be deleted permanently
+
+
+# Create project folder
+
+```bash
+mkdir hello
+```
+
+### Create virtual environment
+
+```bash
+cd hello
+pip install virtualenv
+```
+
+```bash
+virtualenv mail # env_name is the name of the virtual environment
+```
+
+### Activate virtual environment
+
+```bash
+source mail/bin/activate
+```
+
+### Install requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+### Install Django
+
+```bash
+pip install django
+```
+
+### Create requirements.txt
+
+```bash
+pip freeze > requirements.txt
+```
+
+### Create Django project
+
+```bash
+django-admin startproject hello . # project_name is the name of the project and . is the current directory
+```
+
+### Create Django app
+
+```bash
+python manage.py startapp <app_name> # app_name is the name of the app
+```
+
+
+### Create superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+
+### Run server
+
+```bash
+python manage.py runserver
+```
+
+
+### Migrate
+
+```bash
+python manage.py migrate
+```
+
+
+### Create migrations
+
+```bash
+python manage.py makemigrations
+```
+
 
 ### Create apps folder
 
