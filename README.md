@@ -1,5 +1,5 @@
 # Hello
-Welcome to the Hello project! This project is designed for learning Django, Django Rest Framework, and Django GraphQL. It offers a range of features to help you organize and manage your personal and professional communication.
+Welcome to the Hello project! This project offers a range of features to help you organize and manage your personal and professional communication.
 
 With this project, you'll be able to send and receive emails, chat with your contacts, create notes, tasks, and events, and even share these items with your contacts. The project also includes a feed feature, which shows updates from your contacts, groups, and yourself. Additionally, there's a trash app, which keeps track of deleted contacts, notes, emails, tasks, and feeds, so you can recover them if needed. And finally, there's a contacts app, which keeps your contact information, groups, and blocked contacts organized and accessible.
 
