@@ -39,7 +39,7 @@ pip install -r requirements.txt
 pip install django
 ```
 
-### create requirements.txt
+### Create requirements.txt
 
 ```bash
 pip freeze > requirements.txt
@@ -144,7 +144,7 @@ python manage.py startapp feeds
 python manage.py startapp trash
 ```
 
-### add THIRD_PARTY_APPS, and LOCAL_APPS apps to INSTALLED_APPS to settings.py
+### Add THIRD_PARTY_APPS, and LOCAL_APPS apps to INSTALLED_APPS to settings.py
 
 ```python
 # path ./hello/settings.py
