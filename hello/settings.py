@@ -37,6 +37,24 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Third party apps
+    "rest_framework",
+    "rest_framework.authtoken",
+    "django_filters",
+    "corsheaders",
+    "graphene_django",
+    "graphql_auth",
+    "graphql_jwt.refresh_token.apps.RefreshTokenConfig",
+    # Local apps
+    "users",
+    "contacts",
+    "emails",
+    "calendars",
+    "notes",
+    "tasks",
+    "chats",
+    "feeds",
+    "trash",
 ]
 
 MIDDLEWARE = [

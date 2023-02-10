@@ -85,10 +85,7 @@ python manage.py migrate
 python manage.py makemigrations
 ```
 
-
-### Project structure for outlook clone
-
-### Planing to Hello in Django project for learning
+### Hello in Django project for learning
 
 1. Contacts app
    1. create contacts
@@ -108,7 +105,7 @@ python manage.py makemigrations
 3. Calendar app
    1. schedule events, appointments, meetings, tasks
    2. share calendar with other users in contacts
-   3.  invite contacts to events and meetings
+   3. Invite contacts to events and meetings
 4. Notes app
    1. create notes
    2. update notes
@@ -278,3 +275,29 @@ exclude = '''
 )/
 '''
 ```
+
+### Create users app
+
+```bash
+python manage.py startapp users
+```
+
+### Register users app in settings.py
+
+```python
+# path ./hello/settings.py
+INSTALLED_APPS = [
+   # ....
+   # Local apps
+   'users',
+   'contacts',
+   'emails',
+   'calendars',
+   'notes',
+   'tasks',
+   'chats',
+   'feeds',
+   'trash',
+]
+```
+
